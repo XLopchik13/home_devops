@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt  
 
       - name: Build program
-        run: python app.py build
+        run: python for_binarnik.py build
 
       - name: Upload program artifact
         uses: actions/upload-artifact@v2
